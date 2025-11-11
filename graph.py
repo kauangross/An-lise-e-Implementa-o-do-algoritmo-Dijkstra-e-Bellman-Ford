@@ -133,7 +133,6 @@ def graph3() -> "Graph":
     g.graph["F"] = {}  # nó isolado
     return g
 
-
 def test_dijkstra(graph):
     distances, _ = graph.dijkstra("A")
     print("Distâncias mínimas a partir do nó A:")
@@ -163,6 +162,7 @@ def test_bellman_ford_(graph):
         print(f"Caminho mínimo A → F: {' -> '.join(path)} (distância = {dist:.2f})")
     else:
         print("Não há caminho de A até F.")
+
 
 def teste_dijkstra_com_armadilha(graph: "Graph"):
     print("\n--- TESTE DIJKSTRA ---")
@@ -197,7 +197,6 @@ def teste_dijkstra_com_armadilha(graph: "Graph"):
         print("✅ Caminho não encontrado, como esperado.")
     else:
         print("❌ Resultado INCORRETO (achou caminho onde não existe).")
-
 
 def teste_bellman_ford_com_armadilha(graph: "Graph"):
     print("\n--- TESTE BELLMAN-FORD ---")
