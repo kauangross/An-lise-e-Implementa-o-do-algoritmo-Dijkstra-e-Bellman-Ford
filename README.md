@@ -46,7 +46,7 @@ Para rodar os testes comm pytest execute: <br/>
 Caso prefira, instale a extensão de testes do Pytest correspondente na sua IDE e utilize a interface disponibilizada.
 
 # 🧪 Testes Locais (in-code)
-Também foi colocado alguns testes dentro do código "Graph.py" que utilizam funções que iniciam com "graph" e retornam um grafo.<br/>
+O projeto foi testado também com alguns testes dentro do código "Graph.py" que utilizam funções que iniciam com "graph" e retornam um grafo.<br/>
 Exemplo: "graph1()", "graphTestTime()"
 
 ## Os testes incluem:
